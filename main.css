@@ -1,0 +1,74 @@
+a, h1, h2, h3, div, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.nav {
+    background-color: goldenrod;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+
+}
+.nav a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.rNav a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 60px 0px -40px;
+}
+.cards {
+    margin-top: 20px;
+    clear:both;
+    text-align: center;
+
+}
+.container {
+    display: inline-block;
+    padding: 20px;
+
+}
+.card {
+    background-color: white;
+    border: goldenrod solid 2px;
+    border-radius: 5px;
+    width: 310px;
+    height: 550px;
+    float: left;
+    margin: 5px 5px;   
+}
+button {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    width: 95%;
+    height: 5%;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.8px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h2 {
+    text-align: start;
+    margin: 20px 0 0 20px;
+}
